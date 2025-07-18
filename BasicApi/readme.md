@@ -48,6 +48,9 @@ Response (200 OK):
 ## Note
 If the JWT is missing or invalid, you will receive a `401 Unauthorized` response.
 
+#Swagger
+/swagger/v1/swagger.json
+
 ## Notes
 
 - The JWT secret is hardcoded for demo purposes. For production, store secrets securely.
