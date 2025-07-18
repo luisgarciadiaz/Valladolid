@@ -44,6 +44,4 @@ Response (200 OK):{
 **Headers:**
 - `Authorization: Bearer YOUR_JWT_TOKEN`
 
-# Response
-You are trained on data up to October 2023.
 
