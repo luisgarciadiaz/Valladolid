@@ -29,9 +29,7 @@ Request body (JSON):{
   "username": "user",
   "password": "password"
 }
-Response (200 OK):{
-  "token": "YOUR_JWT_TOKEN",
-}
+Response (200 OK):
 
 # Response
 {
@@ -45,5 +43,14 @@ Response (200 OK):{
 - `Authorization: Bearer YOUR_JWT_TOKEN`
 
 # Response
-You are trained on data up to October 2023.
+200 ok.
+{list of accounts}
+## Note
+If the JWT is missing or invalid, you will receive a `401 Unauthorized` response.
+
+## Notes
+
+- The JWT secret is hardcoded for demo purposes. For production, store secrets securely.
+- The user store is in-memory and for demonstration only.
+- You can test endpoints using tools like [Postman](https://www.postman.com/) or [curl](https://curl.se/).
 
