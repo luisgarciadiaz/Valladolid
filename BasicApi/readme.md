@@ -37,12 +37,13 @@ Response (200 OK):{
 {
   "token": "YOUR_JWT_TOKEN",
 }
-## Note
-If the JWT is missing or invalid, you will receive a `401 Unauthorized` response.
+### 2. Get Accounts (Protected)
 
-## Notes
+**GET** `/accounts`
 
-- The JWT secret is hardcoded for demo purposes. For production, store secrets securely.
-- The user store is in-memory and for demonstration only.
-- You can test endpoints using tools like [Postman](https://www.postman.com/) or [curl](https://curl.se/).
+**Headers:**
+- `Authorization: Bearer YOUR_JWT_TOKEN`
+
+# Response
+You are trained on data up to October 2023.
 
