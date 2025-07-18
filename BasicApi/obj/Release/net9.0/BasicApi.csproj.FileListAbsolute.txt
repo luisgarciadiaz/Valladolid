@@ -40,3 +40,8 @@ V:\Git\luisgarciadiaz\Valladolid\BasicApi\obj\Release\net9.0\refint\BasicApi.dll
 V:\Git\luisgarciadiaz\Valladolid\BasicApi\obj\Release\net9.0\BasicApi.pdb
 V:\Git\luisgarciadiaz\Valladolid\BasicApi\obj\Release\net9.0\BasicApi.genruntimeconfig.cache
 V:\Git\luisgarciadiaz\Valladolid\BasicApi\obj\Release\net9.0\ref\BasicApi.dll
+V:\Git\luisgarciadiaz\Valladolid\BasicApi\bin\Release\net9.0\BasicApi.xml
+V:\Git\luisgarciadiaz\Valladolid\BasicApi\obj\Release\net9.0\BasicApi.xml
+V:\Git\luisgarciadiaz\Valladolid\BasicApi\bin\Release\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+V:\Git\luisgarciadiaz\Valladolid\BasicApi\bin\Release\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+V:\Git\luisgarciadiaz\Valladolid\BasicApi\bin\Release\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll

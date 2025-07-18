@@ -40,3 +40,8 @@ V:\Git\luisgarciadiaz\Valladolid\BasicApi\bin\Debug\net9.0\System.IdentityModel.
 V:\Git\luisgarciadiaz\Valladolid\BasicApi\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 V:\Git\luisgarciadiaz\Valladolid\BasicApi\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
 V:\Git\luisgarciadiaz\Valladolid\BasicApi\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+V:\Git\luisgarciadiaz\Valladolid\BasicApi\bin\Debug\net9.0\BasicApi.xml
+V:\Git\luisgarciadiaz\Valladolid\BasicApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+V:\Git\luisgarciadiaz\Valladolid\BasicApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+V:\Git\luisgarciadiaz\Valladolid\BasicApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+V:\Git\luisgarciadiaz\Valladolid\BasicApi\obj\Debug\net9.0\BasicApi.xml

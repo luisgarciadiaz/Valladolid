@@ -57,3 +57,18 @@ If the JWT is missing or invalid, you will receive a `401 Unauthorized` response
 - The user store is in-memory and for demonstration only.
 - You can test endpoints using tools like [Postman](https://www.postman.com/) or [curl](https://curl.se/).
 
+## Swagger UI
+
+To explore the API, you can use the Swagger UI.
+
+After running the project, navigate to `https://localhost:7074/swagger` to see the available endpoints and try them out.
+
+## Troubleshooting
+
+- If you encounter issues, ensure that the .NET 9 SDK is correctly installed.
+- Check the output logs for any error messages during `dotnet run`.
+- Ensure no other services are using the same ports (7074 for HTTPS, 5049 for HTTP).
+
+
+builder.Services.AddOpenApi();
+
