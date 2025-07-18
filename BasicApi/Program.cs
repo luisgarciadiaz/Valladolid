@@ -41,6 +41,13 @@ if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
 }
+else
+{
+    app.Map("/error", (HttpContext httpContext) =>
+    {
+        return Results.Problem("An unexpected error occurred.");
+    });
+}
 
 app.UseHttpsRedirection();
 
