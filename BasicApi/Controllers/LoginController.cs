@@ -1,8 +1,4 @@
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.IdentityModel.Tokens;
-using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
-using System.Text;
 
 namespace BasicApi.Controllers
 {
@@ -10,32 +6,30 @@ namespace BasicApi.Controllers
     [Route("[controller]")]
     public class LoginController : ControllerBase
     {
+        private readonly IAuthService _authService;
+
+        public LoginController(IAuthService authService)
+        {
+            _authService = authService;
+        }
+
         [HttpPost]
         public IActionResult Login([FromBody] LoginRequest request)
         {
-            // Simple in-memory user check (replace with your user store)
-            if (request.Username == "admin" && request.Password == "password")
+            try
             {
-                // Create JWT token
-                JwtSecurityTokenHandler tokenHandler = new JwtSecurityTokenHandler();
-                byte[] key = Encoding.ASCII.GetBytes("M0rel1@!1234567890ByLuisGarci@Di@z"); // Use a secure key in production
-                SecurityTokenDescriptor tokenDescriptor = new SecurityTokenDescriptor
+                string? token = _authService.Authenticate(request.Username, request.Password);
+                if (token == null)
                 {
-                    Subject = new ClaimsIdentity(new[]
-                    {
-                        new Claim(ClaimTypes.Name, request.Username)
-                    }),
-                    Expires = DateTime.UtcNow.AddHours(1),
-                    SigningCredentials = new SigningCredentials(
-                        new SymmetricSecurityKey(key),
-                        SecurityAlgorithms.HmacSha256Signature)
-                };
-                SecurityToken token = tokenHandler.CreateToken(tokenDescriptor);
-                string jwt = tokenHandler.WriteToken(token);
+                    return Unauthorized();
+                }
 
-                return Ok(new { token = jwt });
+                return Ok(new { token });
             }
-            return Unauthorized();
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { error = "An unexpected error occurred.", details = ex.Message });
+            }
         }
     }
 }
