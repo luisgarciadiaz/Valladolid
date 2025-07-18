@@ -32,3 +32,8 @@ V:\Git\luisgarciadiaz\Valladolid\BasicApi\obj\Debug\net9.0\refint\BasicApi.dll
 V:\Git\luisgarciadiaz\Valladolid\BasicApi\obj\Debug\net9.0\BasicApi.pdb
 V:\Git\luisgarciadiaz\Valladolid\BasicApi\obj\Debug\net9.0\BasicApi.genruntimeconfig.cache
 V:\Git\luisgarciadiaz\Valladolid\BasicApi\obj\Debug\net9.0\ref\BasicApi.dll
+V:\Git\luisgarciadiaz\Valladolid\BasicApi\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+V:\Git\luisgarciadiaz\Valladolid\BasicApi\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+V:\Git\luisgarciadiaz\Valladolid\BasicApi\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+V:\Git\luisgarciadiaz\Valladolid\BasicApi\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+V:\Git\luisgarciadiaz\Valladolid\BasicApi\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
