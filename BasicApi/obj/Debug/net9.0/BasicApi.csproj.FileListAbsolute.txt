@@ -37,3 +37,6 @@ V:\Git\luisgarciadiaz\Valladolid\BasicApi\bin\Debug\net9.0\Microsoft.IdentityMod
 V:\Git\luisgarciadiaz\Valladolid\BasicApi\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
 V:\Git\luisgarciadiaz\Valladolid\BasicApi\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
 V:\Git\luisgarciadiaz\Valladolid\BasicApi\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+V:\Git\luisgarciadiaz\Valladolid\BasicApi\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+V:\Git\luisgarciadiaz\Valladolid\BasicApi\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+V:\Git\luisgarciadiaz\Valladolid\BasicApi\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll

@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 
@@ -5,6 +6,7 @@ namespace BasicApi.Controllers
 {
     [ApiController]
     [Route("[controller]")]
+    [Authorize] // <-- Require JWT
     public class AccountsController : ControllerBase
     {
         [HttpGet]
